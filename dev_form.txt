@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Dev_form</title>
+  <style>
+    table, tr , th ,td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+    <center>
+ <form>
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Age :</td>
+    <td><input type="password"></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="Gender"> Male
+     <input type="radio" name="Gender"> Female
+    </td>
+   </tr>
+   <tr>
+    <td>City :</td>
+    <td><input type="City"></td>
+   </tr>
+   <tr>
+    <tr>
+        <td>Adress :</td>
+        <td><input type="Address"></td>
+       </tr>
+       <tr>
+        <td>Remarks :</td>
+        <td><input type="Remarks"></td>
+       </tr>
+       <tr>
+       <tr>
+    <td>Phone no :</td>
+    <td>
+     <select>
+      <option>91</option>
+     </select>
+     <input type="phone">
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+   
+  
+   
+  </table>
+ </form>
+ 
+</body>
+</html>
